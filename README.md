@@ -11,14 +11,14 @@ This folder contains a class which can be used to set up and manage a MySQL data
 
 :wrench: - Usage: 
 
--- read in data: ```covid = pd.read_excel("COVID-19-geographic-disbtribution-worldwide-2020-04-19.xlsx")```
+  -- read in data: ```covid = pd.read_excel("COVID-19-geographic-disbtribution-worldwide-2020-04-19.xlsx")```
 
--- Initialize the Database class: ```objDB = Database(db, host, user, pswd)``` where db is the name of the database you want to create, host is the hostname, user is the username of the MySQL database, and pswd is the Password of the MySQL database
+  -- Initialize the Database class: ```objDB = Database(db, host, user, pswd)``` where db is the name of the database you want to create, host is the hostname, user is the username of the MySQL database, and pswd is the Password of the MySQL database
 
--- Create the database: ```objDB.create_db()```
+  -- Create the database: ```objDB.create_db()```
 
--- Set up the tables: ```objDB.setup_tables()```
+  -- Set up the tables: ```objDB.setup_tables()```
 
--- Create or update the location table: ```objDB.update_location_file(objDB.make_location_file(covid))```
+  -- Create or update the location table: ```objDB.update_location_file(objDB.make_location_file(covid))```
 
--- Update the database: ```objDB.update_data(covid)```
+  -- Update the database: ```objDB.update_data(covid)```
