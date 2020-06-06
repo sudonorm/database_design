@@ -3,7 +3,7 @@ A repo containing code which can be used to design and manage different types of
 
 ## :floppy_disk: MySQL
 
-This MySQL folder contains a class which can be used to set up and manage a MySQL database, as well as the data used in the test run.
+The MySQL folder contains a class which can be used to set up and manage a MySQL database, as well as the data used in the test run.
 
 :hammer:  Requirements: MySQL, Python 3
 
